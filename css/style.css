@@ -11,7 +11,8 @@ h6 {
 .myLink {
     display: none
 }
-/* 新增彈出視窗樣式 */
+
+/* 新增中間彈出視窗樣式 */
 #tyModal {
     display: none;
     position: fixed;

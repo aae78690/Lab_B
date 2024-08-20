@@ -18,12 +18,12 @@ document.getElementsByClassName("tablink")[0].click();
 
 // 新增中間彈出視窗互動
 var modalElem = document.getElementById("tyModal");
-        var spanElem = document.getElementsByClassName("tyClose")[0];
+var spanElem = document.getElementsByClassName("tyClose")[0];
 
-        spanElem.onclick = function () {
-            modalElem.style.display = "none";
-        }
+spanElem.onclick = function () {
+    modalElem.style.display = "none";
+}
 
-        setTimeout(function () {
-            modalElem.style.display = "block";
-        }, 1000);
+setTimeout(function () {
+    modalElem.style.display = "block";
+}, 1000);
